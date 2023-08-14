@@ -11,8 +11,18 @@ Integration of multiple information security products events or security events 
 - Management integrated in SmartConsole
 - Instant notification when syslog hit the RegEx (IFTTT)
 
+* Installation
+  * [VM OOB Install](#logparsers-vm-image-oob-installation)
+  * [Docker Install](#logParser-docker-installation)
+* Configuration
+  * [SmartConsole Ext installation](#smartconsole-ext-installation)
+  * [Add to Network Feed Obj](#add-to-network-feed-obj)
+  * [LogParser Configs](#logparser-configs)
+  * [LogParser syslog test](#logparser-syslog-test)
+  * [RegEx](#regex)
 
-### LogParser's VM image OOB installation
+
+### LogParser VM image OOB installation
 - Download link: `https://birdlex.cplab.tw/cp/vm_images/CP-LogParser.zip`
   backup link: `https://cp.birdlex.net/cp/vm_images/CP-LogParser.zip`
 - VM Default Password: `root:Cpwins1!`
@@ -21,6 +31,15 @@ Integration of multiple information security products events or security events 
 - Network Feed URL: `https://<IP>/networkfeed`
 - UDP Syslog Server: `<IP>:6514`
   ![](https://cp.birdlex.net/cp/static-files/logparser-2.png)
+
+
+### LogParser docker installation
+- Clone this repo: `git clone https://github.com/birdlex/CheckPoint-LogParser-Docker.git`
+- `cd CheckPoint-LogParser-Docker`
+- `docker compose up -d`
+- SmartConsole Extenion URL: `https://<IP>/CheckPoint-LogParser-SmartConsoleExt/extension.json`
+- Network Feed URL: `https://<IP>/networkfeed`
+- UDP Syslog Server: `<IP>:6514`
 
 
 ### SmartConsole Ext installation
