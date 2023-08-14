@@ -11,6 +11,8 @@ Integration of multiple information security products events or security events 
 - Management integrated in SmartConsole
 - Instant notification when syslog hit the RegEx (IFTTT)
 
+
+## Getting Started
 * Installation
   * [VM OOB Install](#logparsers-vm-image-oob-installation)
   * [Docker Install](#logParser-docker-installation)
