@@ -1,5 +1,5 @@
 # LogParser
-Integration of multiple information security products or security events for joint defense with Check Point Firewall via R81.20
+Integration of multiple information security products events or security events for joint defense with Check Point Firewall via R81.20
 
 ![](https://cp.birdlex.net/cp/static-files/logparser-0.png)
 
@@ -53,7 +53,11 @@ If you have already set RegEx, you can paste the original log into the syslog te
 
 
 ### RegEx
-Assuming that `action: "Prevent"` is the keyword in the log, and the IP in `src: "192.168.80.119"` is extracted, the Regex can be written as the following.
-You can go to `https://regex101.com` to test your RegEx.
-![](https://cp.birdlex.net/cp/static-files/logparser-9.png)
+- RegEx
+  ![](https://cp.birdlex.net/cp/static-files/logparser-10.png)
+  `** The names in RegEx cannot be duplicated, and avoid using spaces and special symbols in the names.`
+- RegEx Example
+  Assuming that `action: "Prevent"` is the keyword in the log, and the IP in `src: "192.168.80.119"` is extracted, the Regex can be written as the following.
+  You can go to `https://regex101.com` to test your RegEx.
+  ![](https://cp.birdlex.net/cp/static-files/logparser-9.png)
 
