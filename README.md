@@ -13,7 +13,8 @@ Integration of multiple information security products events or security events 
 
 
 ### LogParser's VM image OOB installation
-- Download link: `https://cp.birdlex.net/cp/`
+- Download link: `https://birdlex.cplab.tw/cp/vm_images/CP-LogParser.zip`
+  backup link: `https://cp.birdlex.net/cp/vm_images/CP-LogParser.zip`
 - VM Default Password: `root:Cpwins1!`
 - SmartConsole Extenion URL: `https://<IP>/CheckPoint-LogParser-SmartConsoleExt/extension.json`
   ![](https://cp.birdlex.net/cp/static-files/logparser-1.png)
